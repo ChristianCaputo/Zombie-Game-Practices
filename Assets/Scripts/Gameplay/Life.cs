@@ -11,7 +11,7 @@ public abstract class Life : MonoBehaviour
     {
         SetInitialLife();
         currentLife = initialLife;
-        Debug.Log("Vida inicial" + currentLife);
+        //Debug.Log("Vida inicial" + currentLife);
     }
 
     public void Damage(int dmg)

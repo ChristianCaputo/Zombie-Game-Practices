@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum BodyPart { head, body }
+//public enum BodyPart { head, body }
 
 public class Inventory : MonoBehaviour
 {
-    public Item head;
-    public Item body;
+    /*public Item head;
+    public Item body;*/
 
     public List<Item> items;
 
@@ -26,6 +26,11 @@ public class Inventory : MonoBehaviour
         if(Input.GetButtonDown("Fire1"))
         {
             Drop(0);
+            print("Inventory:");
+            for(int i = 0; i < items.Count; i++)
+            {
+                print($"{items[i].itemName}, ");
+            }
         }
     }
 }

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a0cf2d93b1c4f249949f6e33514e8de, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
+  itemName: Shotgun
   attack: 45
   defense: 10
-  bodyPart: 1
-  pickPrefab: {fileID: 0}
+  pickPrefab: {fileID: 7128176593322780726, guid: f0a5a13e9dbbd02458bd2e0e66cca0e4, type: 3}
   equipPrefab: {fileID: 0}

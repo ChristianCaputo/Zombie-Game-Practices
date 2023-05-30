@@ -5,9 +5,10 @@ using UnityEngine;
 [CreateAssetMenu (fileName = "New Item", menuName = "Items")]
 public class Item : ScriptableObject
 {
+    public string itemName;
     public float attack;
     public float defense;
-    public BodyPart bodyPart;
+    //public BodyPart bodyPart;
     public GameObject pickPrefab;
     public GameObject equipPrefab;
 }

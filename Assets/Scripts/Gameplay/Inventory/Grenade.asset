@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a0cf2d93b1c4f249949f6e33514e8de, type: 3}
   m_Name: Grenade
   m_EditorClassIdentifier: 
+  itemName: Grenade
   attack: 10
   defense: 0
-  bodyPart: 1
   pickPrefab: {fileID: 554775346477885587, guid: c54ff1eb0e1cf654bb8908a393d9377d, type: 3}
   equipPrefab: {fileID: 8447792922175573815, guid: 7293e6b8b3db3144591e6cde2ab4ec83, type: 3}
